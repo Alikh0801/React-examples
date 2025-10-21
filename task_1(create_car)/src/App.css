@@ -1,0 +1,14 @@
+.car {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 320px;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.car img {
+  border-radius: 8px;
+}
