@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>İşçi Siyahısı</h1>
+      <h1>Employes List</h1>
       <WorkerForm addWorker={addWorker} />
       <WorkerList
         workers={workers}
