@@ -1,0 +1,60 @@
+/* Ümumi səhifə tərzi */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f5f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* Başlıq */
+.h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 40px;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+/* Siyahı qutusu */
+ul {
+  list-style-type: none;
+  /* nöqtələri gizlədir */
+  padding: 0;
+  margin: 30px auto;
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Hər bir todo elementi */
+li {
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+  font-size: 17px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* Hover effekti */
+li:hover {
+  background: #f0f0f0;
+  transform: translateX(3px);
+}
+
+/* Sonuncu elementin alt xəttini silək */
+li:last-child {
+  border-bottom: none;
+}
+
+/* Seçilmiş todo effekti üçün (əgər gələcəkdə state əlavə etsən) */
+li.done {
+  text-decoration: line-through;
+  color: gray;
+}
