@@ -9,7 +9,6 @@ function UserList() {
     useEffect(() => {
         axios.get("https://dummyjson.com/users")
             .then(res => setUsers(res.data.users))
-            .catch(err => console.error("API error:", err));
     }, []);
 
     return (
